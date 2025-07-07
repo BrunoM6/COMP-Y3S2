@@ -1,0 +1,8 @@
+class ThisInStaticMethod {
+
+    public static int foo() {
+        ThisInStaticMethod a;
+        a = this;
+        return 0;
+    }
+}

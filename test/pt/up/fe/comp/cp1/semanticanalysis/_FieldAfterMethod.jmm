@@ -1,0 +1,9 @@
+class FieldAfterMethod {
+
+    int a;
+
+    public static void main(String[] args) {
+    }
+
+    int b;
+}

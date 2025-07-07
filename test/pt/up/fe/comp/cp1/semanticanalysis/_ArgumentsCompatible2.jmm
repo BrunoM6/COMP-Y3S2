@@ -1,0 +1,15 @@
+import Super;
+
+class ArgumentsCompatible2 extends Super {
+
+    public Super bar(Super x) {
+        return this;
+    }
+
+    public int foo() {
+
+        this.bar(this);
+
+        return 0;
+    }
+}

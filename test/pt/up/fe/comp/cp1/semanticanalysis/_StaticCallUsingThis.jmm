@@ -1,0 +1,12 @@
+class StaticCallUsingThis {
+
+    public static void a() {
+    }
+
+    public int foo() {
+
+        this.a();
+
+        return 0;
+    }
+}

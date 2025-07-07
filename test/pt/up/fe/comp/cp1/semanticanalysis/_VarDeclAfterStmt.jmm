@@ -1,0 +1,12 @@
+class VarDeclAfterStmt {
+
+    public int a() {
+        return 0;
+    }
+
+    public void b() {
+        int a;
+        this.a();
+        int b;
+    }
+}

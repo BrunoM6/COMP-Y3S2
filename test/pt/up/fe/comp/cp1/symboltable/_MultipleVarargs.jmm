@@ -1,0 +1,7 @@
+
+class MultipleVarargs {
+
+	public int getField1(int a, int... b, int... c){
+		return 0;
+	}
+}

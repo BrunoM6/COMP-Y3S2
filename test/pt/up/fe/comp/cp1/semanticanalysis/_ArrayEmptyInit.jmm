@@ -1,0 +1,9 @@
+class ArrayEmptyInit {
+
+    public boolean[] foo() {
+        boolean[] a;
+        a = [];
+        return a;
+    }
+
+}

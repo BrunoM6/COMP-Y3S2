@@ -1,0 +1,5 @@
+class VariableNamedLength {
+    public void foo() {
+       int length;
+    }
+}

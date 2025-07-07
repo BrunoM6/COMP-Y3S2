@@ -1,0 +1,10 @@
+class InvalidUnaryExpr {
+
+    public int foo() {
+
+        int a;
+        a = !2;
+
+        return 0;
+    }
+}

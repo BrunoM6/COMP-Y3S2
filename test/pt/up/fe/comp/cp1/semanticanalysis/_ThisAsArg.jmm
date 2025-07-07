@@ -1,0 +1,10 @@
+class ThisAsArg {
+
+    public void caller() {
+        this.foo(this);
+    }
+
+	public void foo(ThisAsArg x) {
+	    //...
+	}
+}

@@ -1,0 +1,10 @@
+class InvalidLogicExpr {
+
+    public int foo() {
+
+        boolean a;
+        a = true || 3;
+
+        return 0;
+    }
+}

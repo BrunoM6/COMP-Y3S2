@@ -1,0 +1,7 @@
+class ClassNotImported {
+    A a;
+
+    public static void main(String[] args) {
+        B b;
+    }
+}

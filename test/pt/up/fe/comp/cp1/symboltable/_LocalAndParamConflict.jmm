@@ -1,0 +1,9 @@
+// Local with same name as param
+
+class LocalAndParamConflict {
+
+	public int getField1(int a){
+	    int a;
+		return 0;
+	}
+}

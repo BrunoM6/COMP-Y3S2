@@ -1,0 +1,12 @@
+import A;
+
+class CallToStaticImportedMethod {
+
+    public int foo() {
+
+        // Assume static method bar() is in A
+        A.bar();
+
+        return 0;
+    }
+}

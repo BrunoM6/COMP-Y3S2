@@ -1,0 +1,11 @@
+import A;
+
+class ClassAsAssignee {
+
+    public int foo() {
+
+        A = 0;
+
+        return 0;
+    }
+}

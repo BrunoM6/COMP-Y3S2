@@ -1,0 +1,7 @@
+class NotAStatement {
+
+    public int foo(int a) {
+        a;
+        return 0;
+    }
+}

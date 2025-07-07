@@ -1,0 +1,11 @@
+class MethodCallBaseClass {
+    int a;
+
+	public void foo() {
+        a = 5;
+	}
+
+	public void bar() {
+	    this.foo();
+	}
+}

@@ -1,0 +1,7 @@
+class ThisAsAssignee {
+
+    public int foo() {
+        this = new ThisAsAssignee();
+        return 0;
+    }
+}

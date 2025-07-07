@@ -1,0 +1,13 @@
+import A;
+
+class CallToSuperMethodUsingThis extends A {
+
+    public int foo() {
+
+        // Assume method bar() is in A and assume it is not static,
+        // otherwise it is semantically incorrect
+        this.bar();
+
+        return 0;
+    }
+}

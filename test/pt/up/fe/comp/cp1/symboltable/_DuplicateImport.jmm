@@ -1,0 +1,7 @@
+// Should pass
+
+import a.C;
+import a.C;
+
+class DuplicateImports {
+}

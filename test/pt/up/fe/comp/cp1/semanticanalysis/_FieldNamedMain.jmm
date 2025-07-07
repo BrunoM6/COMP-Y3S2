@@ -1,0 +1,8 @@
+class FieldNamedMain {
+
+    int main;
+
+    public void foo() {
+        main = 3;
+    }
+}

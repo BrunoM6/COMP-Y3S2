@@ -1,0 +1,5 @@
+class NonVoidWithNoReturn {
+
+    public static int foo() {
+    }
+}

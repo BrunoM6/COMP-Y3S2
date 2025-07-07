@@ -1,0 +1,7 @@
+
+class VarargReturn {
+
+	public int... getField1() {
+		return [];
+	}
+}

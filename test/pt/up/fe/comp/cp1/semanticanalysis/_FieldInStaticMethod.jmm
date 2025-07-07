@@ -1,0 +1,9 @@
+class FieldInStaticMethod {
+
+    int a;
+
+    public static void foo() {
+        // Method is static but field is non-static; fail
+        a = 3;
+    }
+}

@@ -1,0 +1,10 @@
+class TooFewArguments {
+
+    public int foo(int a) {
+        return 0;
+    }
+
+    public int bar() {
+        return this.foo(2, 3);
+    }
+}

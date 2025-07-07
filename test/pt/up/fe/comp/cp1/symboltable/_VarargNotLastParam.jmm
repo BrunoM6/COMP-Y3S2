@@ -1,0 +1,8 @@
+// Same as VarargWrong provided by professor as a semantic test
+
+class VarargNotLastParam {
+
+	public int getField1(int a, bool... b, bool c) {
+		return 0;
+	}
+}

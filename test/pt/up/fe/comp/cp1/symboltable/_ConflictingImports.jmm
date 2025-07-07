@@ -1,0 +1,7 @@
+// Should not pass
+
+import a.C;
+import a.b.C;
+
+class ConflictingImports {
+}

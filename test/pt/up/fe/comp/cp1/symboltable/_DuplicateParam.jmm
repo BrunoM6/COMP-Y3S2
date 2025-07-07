@@ -1,0 +1,7 @@
+
+class DuplicateParam {
+
+	public int getField1(int a, bool a){
+		return 0;
+	}
+}

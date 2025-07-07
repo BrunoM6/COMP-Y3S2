@@ -1,0 +1,14 @@
+
+class DuplicateLocal {
+
+	public int getField1(){
+
+	    int a;
+	    bool a;
+
+	    int b;
+	    int b;
+
+		return 0;
+	}
+}

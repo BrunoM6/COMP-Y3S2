@@ -1,0 +1,18 @@
+import A;
+import B;
+
+class ArgumentsCompatible4 {
+
+    public A bar(A x) {
+        B b;
+        return b;
+    }
+
+    public int foo() {
+
+        B b;
+        this.bar(b);
+
+        return 0;
+    }
+}

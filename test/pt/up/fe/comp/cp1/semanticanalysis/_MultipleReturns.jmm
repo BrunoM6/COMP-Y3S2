@@ -1,0 +1,6 @@
+class MultipleReturns {
+    public int foo() {
+        return 5;
+        return 3;
+    }
+}

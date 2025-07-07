@@ -1,0 +1,3 @@
+
+class SuperclassNotImported extends A {
+}

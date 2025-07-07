@@ -1,0 +1,12 @@
+import A;
+
+class AssignWithStatic {
+
+    public int foo() {
+
+        boolean b;
+        b = A.bar();
+
+        return 0;
+    }
+}

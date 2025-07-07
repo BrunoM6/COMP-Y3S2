@@ -1,0 +1,13 @@
+class ArgumentsCompatible {
+
+    public boolean[] bar(int[] x) {
+        return [];
+    }
+
+    public int foo() {
+
+        this.bar([]);
+
+        return 0;
+    }
+}

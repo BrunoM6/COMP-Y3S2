@@ -1,0 +1,10 @@
+
+class VarargLocal {
+
+	public int getField1(){
+
+	    bool... a;
+
+		return 0;
+	}
+}

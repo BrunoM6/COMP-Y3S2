@@ -1,0 +1,12 @@
+import A;
+
+class ClassAsAssigned {
+
+    public int foo() {
+
+        A a;
+        a = A;
+
+        return 0;
+    }
+}

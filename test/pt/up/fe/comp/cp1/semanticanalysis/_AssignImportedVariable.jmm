@@ -1,0 +1,12 @@
+import A;
+
+class AssignImportedVariable {
+
+    public int foo() {
+
+        A a;
+        a.var = 3;
+
+        return 0;
+    }
+}

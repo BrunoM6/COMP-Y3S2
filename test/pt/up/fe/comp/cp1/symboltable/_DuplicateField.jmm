@@ -1,0 +1,9 @@
+
+class DuplicateField {
+
+    int a;
+    bool a;
+
+    int b;
+    int b;
+}

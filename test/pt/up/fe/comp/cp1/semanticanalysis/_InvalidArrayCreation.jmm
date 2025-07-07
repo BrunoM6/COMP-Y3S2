@@ -1,0 +1,8 @@
+class InvalidArrayCreation {
+
+    public int foo() {
+        int[] a;
+        a = new int[true];
+        return 0;
+    }
+}
