@@ -10,15 +10,8 @@ We did all suggested optimizations, including constant Propagation and Folding, 
 - Our compiler supports arrays of any type, including imported types.
 - Our compiler allows for static and void functions other than main.
 
-# Weights
-Grammar/Symbol Table: 50/50
-
-Analise Semantica: 50/50
-
-Ollir: 80 - Nuno, 20 - Bruno
-
-Jasmin: 50/50
-
-Optimizations: 20 - Nuno, 80 - Bruno
-
 Work done by Nuno Rios (202206272) and Bruno Moreira (202107143).
+
+Implemented Grammar, Symbol Table, Semantic Analysis, Ollir Generation, Optimizations, Jasmin and Jasmin Optimizations.
+
+Final Grade: 20/20
